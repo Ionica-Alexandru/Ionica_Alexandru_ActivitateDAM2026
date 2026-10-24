@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Ionica_alexandru_seminar"
 include(":app")
+include(":seminar4")

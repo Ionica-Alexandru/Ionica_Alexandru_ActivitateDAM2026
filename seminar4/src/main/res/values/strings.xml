@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">seminar4</string>
+    <string name="apa">Sticla de apa</string>
+    <string name="brand">Brand: </string>
+    <string name="tip_apa">Tip de apa: </string>
+    <string name="volumul_sticlei">Volumul sticlei:</string>
+    <string name="_330ml">330ml</string>
+    <string name="_500ml">500ml</string>
+    <string name="_1l">1l</string>
+    <string name="_2l">2l</string>
+    <string name="pret_sticla">Pret sticla:</string>
+    <string name="introdu_numele_brandului">Introdu numele brandului:</string>
+    <string name="introdu_pretul_sticlei">Introdu pretul sticlei:</string>
+    <string name="ron">RON</string>
+    <string name="magazine_care_comercializeaza_sticla">Magazine care comercializeaza sticla:</string>
+    <string name="carreffour">Carreffour</string>
+    <string name="auchan">Auchan</string>
+    <string name="mega_image">Mega Image</string>
+    <string name="profi">Profi</string>
+    <string name="kaufland">Kaufland</string>
+    <string name="lidl">Lidl</string>
+    <string name="la_cocos">La Cocos</string>
+    <string name="nota_utilizatori">Nota sticlei:</string>
+    <string name="interogheaza_baze_de_date_sticle">Interogheaza baze de date sticle</string>
+    <string name="aplicatie_pentru_sticle_de_apa">Aplicatie pentru sticle de apa</string>
+    <string name="adauga_brand_de_sticla">Adauga brand de sticla</string>
+    <string name="adauga_sticla">Adauga sticla</string>
+    <string-array name="tipuri_apa">
+        <item>Plata</item>
+        <item>Minerala</item>
+        <item>De_Izvor</item>
+        <item>Sifon</item>
+    </string-array>
+</resources>
