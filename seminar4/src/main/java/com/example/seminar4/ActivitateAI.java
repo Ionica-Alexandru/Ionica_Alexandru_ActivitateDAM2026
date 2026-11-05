@@ -46,7 +46,7 @@ public class ActivitateAI extends AppCompatActivity {
                 String brandu=txtBrand.getText().toString();
 
                 Spinner spinner=findViewById(R.id.tip_s);
-                MainActivity.tip tipulApei= MainActivity.tip.valueOf(spinner.getSelectedItem().toString());
+                tip tipulApei= tip.valueOf(spinner.getSelectedItem().toString());
 
                 int volumul=0;
                 RadioGroup radioGroup=findViewById(R.id.rb_group);
@@ -91,7 +91,7 @@ public class ActivitateAI extends AppCompatActivity {
                 RatingBar ratingBar=findViewById(R.id.nota_rb);
                 float notaM=ratingBar.getRating();
 
-                MainActivity.Sticla sticla= new MainActivity.Sticla(brandu, tipulApei, volumul, (float)pretu, magazine, notaM);
+                Sticla sticla= new Sticla(brandu, tipulApei, volumul, (float)pretu, magazine, notaM);
 
                 Intent intent2=new Intent(ActivitateAI.this,ActivitatePrimara.class);
                 Bundle bundle=new Bundle();
@@ -139,13 +139,13 @@ public class ActivitateAI extends AppCompatActivity {
     public static class Sticla
     {
         String brand;
-        MainActivity.tip tip_apa;
+        tip tip_apa;
         int volum;
         float pret;
         List<String> magazine=new ArrayList<>();//magazine care o comercializeaza;
         float nota;
 
-        public Sticla(String brand, MainActivity.tip tip_apa, int marime, float pret, List<String> magazine, float nota)
+        public Sticla(String brand, tip tip_apa, int marime, float pret, List<String> magazine, float nota)
         {
             this.brand=brand;
             this.tip_apa=tip_apa;

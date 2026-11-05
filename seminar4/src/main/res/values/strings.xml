@@ -9,8 +9,8 @@
     <string name="_1l">1l</string>
     <string name="_2l">2l</string>
     <string name="pret_sticla">Pret sticla:</string>
-    <string name="introdu_numele_brandului">Introdu numele brandului:</string>
-    <string name="introdu_pretul_sticlei">Introdu pretul sticlei:</string>
+    <string name="introdu_numele_brandului">Introdu numele brandului</string>
+    <string name="introdu_pretul_sticlei">Introdu pretul sticlei</string>
     <string name="ron">RON</string>
     <string name="magazine_care_comercializeaza_sticla">Magazine care comercializeaza sticla:</string>
     <string name="carreffour">Carreffour</string>
@@ -25,6 +25,8 @@
     <string name="aplicatie_pentru_sticle_de_apa">Aplicatie pentru sticle de apa</string>
     <string name="adauga_brand_de_sticla">Adauga brand de sticla</string>
     <string name="adauga_sticla">Adauga sticla</string>
+    <string name="baza_de_date_sticle_cu_apa">Baza de date sticle cu apa</string>
+    <string name="inapoi">Inapoi</string>
     <string-array name="tipuri_apa">
         <item>Plata</item>
         <item>Minerala</item>
