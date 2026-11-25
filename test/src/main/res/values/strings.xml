@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="id_ul_tabletei">ID-ul Tabletei:</string>
+    <string name="introduce_tableta_noua">Introduce tableta noua</string>
+    <string name="model">Model:</string>
+    <string name="spatiul_tabletei">Spatiul Tabletei:</string>
+    <string name="gb">GB</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="windows">Windows</string>
+    <string name="adauga_tableta">Adauga tableta</string>
+</resources>

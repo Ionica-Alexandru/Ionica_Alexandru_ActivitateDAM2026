@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ionica_alexandru_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduce_tableta_noua"
+        android:textSize="40sp"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/ionica_alexandru_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_ul_tabletei"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/ionica_alexandru_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/ionica_alexandru_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/model"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/ionica_alexandru_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/ionica_alexandru_textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spatiul_tabletei"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/ionica_alexandru_spatiu"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/ionica_alexandru_textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/gb"
+            android:layout_gravity="center"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp">
+
+        <TextView
+            android:id="@+id/ionica_alexandru_textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/model"
+            android:textSize="25sp"/>
+
+        <RadioGroup
+            android:id="@+id/ionica_alexandru_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ionica_alexandru_android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android"
+                android:padding="10dp"/>
+
+            <RadioButton
+                android:id="@+id/ionica_alexandru_ios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ios"
+                android:padding="10dp"/>
+
+            <RadioButton
+                android:id="@+id/ionica_alexandru_windows"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/windows"
+                android:padding="10dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ionica_alexandru_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/adauga_tableta"/>
+
+</LinearLayout>
