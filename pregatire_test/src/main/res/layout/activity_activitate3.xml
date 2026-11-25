@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitate3">
+
+    <TextView
+        android:id="@+id/tv_titlu_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statistici_spital_gridlayout_2x2"
+        android:textSize="20sp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_titlu_grid"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <!-- Celula (0,0) - Linie 1, Coloană 1 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#E0E0E0"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Săli Operație\n??"
+            android:textSize="16sp" />
+
+        <!-- Celula (0,1) - Linie 1, Coloană 2 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#E0E0E0"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Medici Angajați\n??"
+            android:textSize="16sp" />
+
+        <!-- Celula (1,0) - Linie 2, Coloană 1 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#E0E0E0"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Paturi ATI\n??"
+            android:textSize="16sp" />
+
+        <!-- Celula (1,1) - Linie 2, Coloană 2 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#E0E0E0"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Ambulanțe\n?"
+            android:textSize="16sp" />
+
+    </GridLayout>
+</RelativeLayout>

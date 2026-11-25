@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">pregatire_test</string>
+    <string name="re_welcome">Bine ai revenit, dragul meu!</string>
+    <string name="ce_mai_faci">Ce mai faci?</string>
+    <string name="activitate2">Activitate2</string>
+    <string name="activitate3">Activitate3</string>
+    <string name="nume">Nume:</string>
+    <string name="tip_spital">Tip spital:</string>
+    <string name="imagine_spital_suprapus">Imagine Spital</string>
+    <string name="statistici_spital_gridlayout_2x2">Statistici Spital</string>
+    <string-array name="Array">
+        <item>Public</item>
+        <item>Privat</item>
+    </string-array>
+
+    <string-array name="Array2">
+        <item>Pneumologie</item>
+        <item>ATI</item>
+        <item>Oncologie</item>
+        <item>Dermatologie</item>
+        <item>UPU</item>
+        <item>Reanimare</item>
+        <item>Pneumopule</item>
+    </string-array>
+
 </resources>

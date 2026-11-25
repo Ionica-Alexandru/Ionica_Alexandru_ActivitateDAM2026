@@ -27,6 +27,7 @@
     <string name="adauga_sticla">Adauga sticla</string>
     <string name="baza_de_date_sticle_cu_apa">Baza de date sticle cu apa</string>
     <string name="inapoi">Inapoi</string>
+    <string name="poze">Poze!</string>
     <string-array name="tipuri_apa">
         <item>Plata</item>
         <item>Minerala</item>

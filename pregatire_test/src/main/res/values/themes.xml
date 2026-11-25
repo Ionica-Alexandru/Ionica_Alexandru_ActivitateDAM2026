@@ -4,6 +4,12 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+    <style name="CustomButtomStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:padding">8dp</item>
+    </style>
 
     <style name="Theme.Ionica_alexandru_seminar" parent="Base.Theme.Ionica_alexandru_seminar" />
 </resources>

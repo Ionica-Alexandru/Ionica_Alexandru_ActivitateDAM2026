@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activtiate_secundara">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/TOOLBAR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/design_default_color_primary_variant">
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text=""
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numele spitalului:   "
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/NUME"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:hint="Introdu numele spitalului"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipul spitalului:   "
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/TIPUL"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:entries="@array/Array"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numarul de paturi:   "
+                android:textSize="16sp" />
+
+            <SeekBar
+                android:id="@+id/NRPATURI"
+                android:layout_width="200dp"
+                android:layout_height="40sp"
+                android:max="500"
+                android:progress="250"/>
+
+            <TextView
+                android:id="@+id/ViewNrpat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="250"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pretul unei consultatii:   "
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/PRETUL"
+                android:layout_width="match_parent"
+                android:layout_height="40sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sectii spital"
+            android:paddingVertical="20dp"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp">
+
+            <CheckBox
+                android:id="@+id/pneomologie"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Pneumologie"
+                android:padding="5dp"/>
+
+            <CheckBox
+                android:id="@+id/ati"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="ATI"
+                android:padding="5dp"/>
+
+            <CheckBox
+                android:id="@+id/oncologie"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Oncologie"
+                android:padding="5dp"/>
+
+            <CheckBox
+                android:id="@+id/pneumopule"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Pneumopule"
+                android:padding="7dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp">
+
+            <CheckBox
+                android:id="@+id/dermatologie"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Dermatologie"
+                android:padding="10dp"/>
+
+            <CheckBox
+                android:id="@+id/upu"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="UPU"
+                android:padding="10dp"/>
+
+            <CheckBox
+                android:id="@+id/reanimare"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Reanimare"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Nota spital:"
+                android:padding="15dp"
+                />
+
+            <RatingBar
+                android:id="@+id/NOTA"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                />
+        </LinearLayout>
+
+</LinearLayout>

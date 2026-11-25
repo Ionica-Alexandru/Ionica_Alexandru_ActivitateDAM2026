@@ -135,12 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Intent intent2 = new Intent(MainActivity.this, ActivitatePrimara.class);
                     Bundle bundle = new Bundle();
-                    bundle.putString("brand_key", sticla.brand);
-                    bundle.putString("tip_key", sticla.tip_apa.toString());
-                    bundle.putInt("volum_key", sticla.volum);
-                    bundle.putFloat("pret_key", sticla.pret);
-                    bundle.putStringArrayList("magazine_key", (ArrayList<String>) sticla.magazine);
-                    bundle.putFloat("nota_key", sticla.nota);
+                    bundle.putParcelable("sticla_key",sticla);
 
                     intent2.putExtras(bundle);
                     startActivity(intent2);

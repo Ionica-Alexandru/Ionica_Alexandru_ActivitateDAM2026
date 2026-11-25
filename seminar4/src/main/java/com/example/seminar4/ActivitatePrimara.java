@@ -43,15 +43,9 @@ public class ActivitatePrimara extends AppCompatActivity {
         Bundle bundle=intent.getExtras();
         if(bundle!=null)
         {
-            String brand=bundle.getString("brand_key");
-            tip tipulApei= tip.valueOf(bundle.getString("tip_key"));
-            int volumul=bundle.getInt("volum_key");
-            float pretu=bundle.getFloat("pret_key");
-            List<String> magazinele=new ArrayList<>();
-            magazinele=bundle.getStringArrayList("magazine_key");
-            float nota=bundle.getFloat("nota_key");
 
-            Sticla sticla=new Sticla(brand,tipulApei,volumul,pretu,magazinele,nota);
+
+            Sticla sticla=bundle.getParcelable("sticla_key");
             sticlele.add(sticla);
             stringuri_sticle= sticlele.stream()
                     .map(st -> st.toString())
@@ -85,6 +79,15 @@ public class ActivitatePrimara extends AppCompatActivity {
                 intent2.putExtras(bundle2);
                 startActivity(intent2);
 
+            }
+        });
+
+        Button buton3=findViewById(R.id.buttonPoze);
+        buton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ActivitatePrimara.this,ActivitatePoze.class);
+                startActivity(intent);
             }
         });
     }
